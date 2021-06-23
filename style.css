@@ -1,0 +1,145 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+/* appointment */
+section.appointment {
+    margin: 100px 0;
+}
+.appointment{
+
+}
+.img_bg{
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(https://images.unsplash.com/photo-1503614418835-dc720bf59271?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+    width: 58%;
+    height: 100%;
+    z-index: -1;
+
+}
+/* .appointment_content{
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(https://images.unsplash.com/photo-1503614418835-dc720bf59271?ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDEzfDZzTVZqVExTa2VRfHxlbnwwfHx8fA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+} */
+
+.appointment_area{
+    width: 80%;
+    margin: 0 auto;
+}
+.appointment_content{
+    width: 60%;
+    float: left;
+}
+.title{
+    transform: rotate(
+-90deg
+);
+    color: #fff;
+    position: absolute;
+    top: 42%;
+    left: -20px;
+    font-weight: 600;
+    font-size: 38px;
+}
+.appointment_form{
+  
+}
+.contact{
+    width: 48%;
+    float: left;
+}
+input.name {
+    width: 88%;
+    padding: 10px 3px;
+    margin: 15px 9px 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+.name{
+
+}
+.contact_text {
+    width: 100%;
+    display: block;
+}
+.text_area{
+    width: 88%;
+    padding: 10px 17px 10px 5px ;
+    margin-top: 15px;
+    height: 146px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+
+.btn {
+    margin: 10px 0px;
+    border: none;
+    padding: 20px 48px;
+    font-size: 16px;
+    background: #07c1b0;
+    color: #fff;
+    cursor: pointer;
+}
+.btn:hover {
+    background: #037c72;
+    color: #fff;
+ 
+}
+
+input, textarea, button{
+    outline: none;
+}
+
+
+/* inconvenience_content */
+.inconvenience_content{
+    width: 40%;
+    float: left;
+    height: auto;
+}
+.inconvenience_content h2{
+    font-size: 28px;
+    margin-left: 30px;
+    line-height: 1.5em;
+    margin-bottom: 25px;
+    margin-top: 10px;
+}
+.unlisted_item{
+    list-style: none;
+    margin-inline: 30px;
+}
+.unlisted_item li{
+
+}
+.unlisted_item li a{
+    text-decoration: none;
+    color: #333;
+    line-height: 1.5em;
+    font-size: 18px;
+}
+.unlisted_item li a:hover{
+
+}
+.unlisted_item li i{
+    font-size: 24px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-top: 2px;
+    color: #07c1b0;
+}
+
+.btn .color{
+
+}
